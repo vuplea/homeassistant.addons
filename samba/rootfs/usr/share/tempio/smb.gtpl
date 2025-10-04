@@ -9,6 +9,10 @@
    idmap config * : backend = tdb
    idmap config * : range = 1000000-2000000
 
+   allow insecure wide links = Yes
+   follow symlinks = Yes
+   wide links = Yes
+
    load printers = no
    disable spoolss = yes
 
